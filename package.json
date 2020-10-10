@@ -1,0 +1,14 @@
+{
+  "name": "psxstore",
+  "version": "1.0.0",
+  "description": "psxstore demo using a 3d engine",
+  "main": "index.js",
+  "scripts": {},
+  "author": "ricardo velasco",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@babylonjs/core": "^4.1.0",
+    "ammo.js": "github:kripken/ammo.js"
+  }
+}
