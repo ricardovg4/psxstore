@@ -3,12 +3,32 @@
   "version": "1.0.0",
   "description": "psxstore demo using a 3d engine",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "build": "webpack -p"
+  },
   "author": "ricardo velasco",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "@babylonjs/core": "^4.1.0",
-    "ammo.js": "github:kripken/ammo.js"
+    "@babylonjs/loaders": "^4.1.0",
+    "@babylonjs/materials": "^4.1.0",
+    "ammo.js": "github:kripken/ammo.js",
+    "gsap": "^3.5.1",
+    "scrollmagic": "^2.0.7",
+    "scrollmagic-plugin-gsap": "^1.0.4"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "imports-loader": "^1.2.0",
+    "mini-css-extract-plugin": "^1.0.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.2.0"
   }
 }
